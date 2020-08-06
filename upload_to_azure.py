@@ -50,7 +50,7 @@ def run_sample():
         while(os.path.getsize("/home/pi/Desktop/azure_data_files/log-azure.txt")>0):
             val=None
             full_path_to_file =" "
-            val1=block_blob_service = BlockBlobService(account_name='pollprojectstrgacc', account_key='1gk5tAS8bc3zCQeibeOzDttkSkzXxuEkqbJBu0TCHxlM6aW5B1HpIDGFYlHPx8Y7sERQ+kCQzrI3TcGnpXRnSw==')
+            val1=block_blob_service = BlockBlobService()
             print(val1)
        
             container_name ='pollprojectstrgscccont'
